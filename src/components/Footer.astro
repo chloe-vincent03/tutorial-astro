@@ -1,0 +1,21 @@
+---
+const platform = "github";
+const username = "withastro";
+---
+<style>
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+</style>
+
+<footer class="footer">
+    <p>Learn more about my projects on <a href={`https://www.${platform}.com/${username}`}>{platform}</a>!</p>
+</footer>
